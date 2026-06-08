@@ -4481,485 +4481,180 @@
         ]
       },
       "screenshot": "/uploads/screenshot_mig_6oblltrnu.png"
+    },
+    {
+      "_id": "mig_0zy3qxi0t",
+      "status": "completed",
+      "extractedData": {
+        "title": "UpSkill Campus Internship Program",
+        "description": "Join the UpSkill Campus Internship Program with free, premium, and AICTE options. Gain hands-on experience, mentorship, certification, and real-world skills.",
+        "specifications": [
+          "Essential Training: Build foundational skills for success.",
+          "Discussion Forum: Connect and share ideas with fellow learners.",
+          "Community Support: Learn and grow with peers and mentors.",
+          "Free Benefits: Enjoy everything from the Free Internship, plus much\n                                more!",
+          "Advanced Training: Master industry-relevant skills through structured,\n                                in-depth modules.",
+          "Personalized Mentorship: Get one-on-one guidance from seasoned industry\n                                professionals.",
+          "Exclusive Networking: Connect with industry leaders through curated\n                                sessions and events.",
+          "Comprehensive Learning: Gain hands-on experience with real-world\n                                projects and datasets.",
+          "Advanced Skill Development: Master industry-relevant tools and\n                                techniques through structured modules.",
+          "Personalized Mentorship: Receive one-on-one guidance from experienced\n                                industry professionals.",
+          "Professional Networking: Connect with peers and industry leaders\n                                through curated sessions and events.",
+          "Career Support: Access resume reviews, mock interviews, and guidance to\n                                prepare for corporate opportunities."
+        ],
+        "dates": [
+          "6/8/2026"
+        ],
+        "metadata": {
+          "domain": "www.upskillcampus.com",
+          "author": "Unknown Author",
+          "keywords": "Internship Program",
+          "category": "Web Extraction"
+        },
+        "images": [
+          "https://www.upskillcampus.com/og-banner-new.png",
+          "https://www.upskillcampus.com/assets/dit/img/internship/certificate.webp",
+          "https://www.upskillcampus.com/assets/dit/img/internship/thumbnail-shreya.webp",
+          "https://www.upskillcampus.com/assets/dit/img/internship/thumbnail-nandini.webp",
+          "https://www.upskillcampus.com/assets/dit/img/internship/thumbnail-saiti.webp"
+        ]
+      },
+      "mappings": [
+        {
+          "sourceField": "title",
+          "targetSelector": "#product-title",
+          "defaultValue": ""
+        },
+        {
+          "sourceField": "description",
+          "targetSelector": "textarea[name=\"description\"]",
+          "defaultValue": ""
+        },
+        {
+          "sourceField": "specifications",
+          "targetSelector": "textarea[name=\"specs\"]",
+          "defaultValue": ""
+        },
+        {
+          "sourceField": "date",
+          "targetSelector": "input[name=\"date\"]",
+          "defaultValue": ""
+        },
+        {
+          "sourceField": "price",
+          "targetSelector": "input[name=\"price\"]",
+          "defaultValue": "0.00"
+        }
+      ],
+      "logs": [
+        "[1:29:27 PM] [INFO] Starting scraper connection...",
+        "[1:29:30 PM] [SUCCESS] Extracted fields mapping ready.",
+        "[1:29:33 PM] [INFO] Initializing Apexium Automation Engine for Migration ID: mig_0zy3qxi0t",
+        "[1:29:33 PM] [INFO] Target Destination Form: http://localhost:5000/test-form.html",
+        "[1:29:33 PM] [INFO] Spawning Puppeteer chrome browser (Headless: true)...",
+        "[1:29:34 PM] [INFO] Navigating to form URL: http://localhost:5000/test-form.html",
+        "[1:29:35 PM] [SUCCESS] Destination DOM structure fully loaded and responsive.",
+        "[1:29:35 PM] [INFO] Locating selector '#product-title' for field 'title'...",
+        "[1:29:36 PM] [INFO] Typing values into selector '#product-title'...",
+        "[1:29:38 PM] [SUCCESS] Populated selector with extracted text content.",
+        "[1:29:38 PM] [INFO] Locating selector 'textarea[name=\"description\"]' for field 'description'...",
+        "[1:29:40 PM] [INFO] Typing values into selector 'textarea[name=\"description\"]'...",
+        "[1:29:52 PM] [SUCCESS] Populated selector with extracted text content.",
+        "[1:29:52 PM] [INFO] Locating selector 'textarea[name=\"specs\"]' for field 'specifications'...",
+        "[1:29:53 PM] [INFO] Typing values into selector 'textarea[name=\"specs\"]'...",
+        "[1:30:02 PM] [INFO] Initializing Apexium Automation Engine for Migration ID: mig_0zy3qxi0t",
+        "[1:30:02 PM] [INFO] Target Destination Form: http://localhost:5000/test-form.html",
+        "[1:30:02 PM] [INFO] Spawning Puppeteer chrome browser (Headless: true)...",
+        "[1:30:03 PM] [INFO] Navigating to form URL: http://localhost:5000/test-form.html",
+        "[1:30:03 PM] [SUCCESS] Destination DOM structure fully loaded and responsive.",
+        "[1:30:03 PM] [INFO] Locating selector '#product-title' for field 'title'...",
+        "[1:30:04 PM] [INFO] Typing values into selector '#product-title'...",
+        "[1:30:07 PM] [SUCCESS] Populated selector with extracted text content.",
+        "[1:30:07 PM] [INFO] Locating selector 'textarea[name=\"description\"]' for field 'description'...",
+        "[1:30:08 PM] [INFO] Typing values into selector 'textarea[name=\"description\"]'...",
+        "[1:30:21 PM] [SUCCESS] Populated selector with extracted text content.",
+        "[1:30:21 PM] [INFO] Locating selector 'textarea[name=\"specs\"]' for field 'specifications'...",
+        "[1:30:22 PM] [INFO] Typing values into selector 'textarea[name=\"specs\"]'...",
+        "[1:31:32 PM] [INFO] Initializing Apexium Automation Engine for Migration ID: mig_0zy3qxi0t",
+        "[1:31:32 PM] [INFO] Target Destination Form: http://localhost:5000/test-form.html",
+        "[1:31:32 PM] [INFO] Spawning Puppeteer chrome browser (Headless: true)...",
+        "[1:31:32 PM] [INFO] Navigating to form URL: http://localhost:5000/test-form.html",
+        "[1:31:33 PM] [SUCCESS] Destination DOM structure fully loaded and responsive.",
+        "[1:31:33 PM] [INFO] Locating selector '#product-title' for field 'title'...",
+        "[1:31:34 PM] [INFO] Typing values into selector '#product-title'...",
+        "[1:31:37 PM] [SUCCESS] Populated selector with extracted text content.",
+        "[1:31:37 PM] [INFO] Locating selector 'textarea[name=\"description\"]' for field 'description'...",
+        "[1:31:38 PM] [INFO] Typing values into selector 'textarea[name=\"description\"]'...",
+        "[1:31:38 PM] [SUCCESS] Populated selector with extracted text content.",
+        "[1:31:38 PM] [INFO] Locating selector 'input[name=\"date\"]' for field 'date'...",
+        "[1:31:41 PM] [WARNING] Selector 'input[name=\"date\"]' not found within 3s. Attempting to proceed...",
+        "[1:31:41 PM] [INFO] Locating selector 'input[name=\"price\"]' for field 'price'...",
+        "[1:31:44 PM] [WARNING] Selector 'input[name=\"price\"]' not found within 3s. Attempting to proceed...",
+        "[1:31:44 PM] [INFO] Form filling completed. Auto-Submit is disabled in system configurations.",
+        "[1:31:45 PM] [SUCCESS] Viewport snapshot recorded. Saved to /uploads/screenshot_mig_0zy3qxi0t.png",
+        "[1:31:45 PM] [SUCCESS] Data migration executed flawlessly! Session closed.",
+        "[1:31:50 PM] [SUCCESS] Populated selector with extracted text content.",
+        "[1:31:50 PM] [INFO] Locating selector 'textarea[name=\"specs\"]' for field 'specifications'...",
+        "[1:31:51 PM] [INFO] Typing values into selector 'textarea[name=\"specs\"]'...",
+        "[1:32:07 PM] [SUCCESS] Populated selector with extracted text content.",
+        "[1:32:07 PM] [INFO] Locating selector 'input[name=\"date\"]' for field 'date'...",
+        "[1:32:10 PM] [WARNING] Selector 'input[name=\"date\"]' not found within 3s. Attempting to proceed...",
+        "[1:32:10 PM] [INFO] Locating selector 'input[name=\"price\"]' for field 'price'...",
+        "[1:32:13 PM] [WARNING] Selector 'input[name=\"price\"]' not found within 3s. Attempting to proceed...",
+        "[1:32:13 PM] [INFO] Form filling completed. Auto-Submit is disabled in system configurations.",
+        "[1:32:13 PM] [SUCCESS] Viewport snapshot recorded. Saved to /uploads/screenshot_mig_0zy3qxi0t.png",
+        "[1:32:13 PM] [SUCCESS] Data migration executed flawlessly! Session closed.",
+        "[1:33:31 PM] [SUCCESS] Populated selector with extracted text content.",
+        "[1:33:31 PM] [INFO] Locating selector 'input[name=\"date\"]' for field 'date'...",
+        "[1:33:34 PM] [WARNING] Selector 'input[name=\"date\"]' not found within 3s. Attempting to proceed...",
+        "[1:33:34 PM] [INFO] Locating selector 'input[name=\"price\"]' for field 'price'...",
+        "[1:33:37 PM] [WARNING] Selector 'input[name=\"price\"]' not found within 3s. Attempting to proceed...",
+        "[1:33:37 PM] [INFO] Form filling completed. Auto-Submit is disabled in system configurations.",
+        "[1:33:37 PM] [SUCCESS] Viewport snapshot recorded. Saved to /uploads/screenshot_mig_0zy3qxi0t.png",
+        "[1:33:37 PM] [SUCCESS] Data migration executed flawlessly! Session closed."
+      ],
+      "createdAt": "2026-06-08T07:59:27.909Z",
+      "updatedAt": "2026-06-08T08:03:37.926Z",
+      "sourceUrl": "https://www.upskillcampus.com/internships",
+      "destinationUrl": "http://localhost:5000/test-form.html",
+      "settings": {
+        "id": "global",
+        "headless": true,
+        "delay": 1000,
+        "autoSubmit": false,
+        "maxConcurrency": 2,
+        "defaultMappings": [
+          {
+            "sourceField": "title",
+            "targetSelector": "#product-title",
+            "defaultValue": ""
+          },
+          {
+            "sourceField": "description",
+            "targetSelector": "textarea[name=\"description\"]",
+            "defaultValue": ""
+          },
+          {
+            "sourceField": "specifications",
+            "targetSelector": "textarea[name=\"specs\"]",
+            "defaultValue": ""
+          },
+          {
+            "sourceField": "date",
+            "targetSelector": "input[name=\"date\"]",
+            "defaultValue": ""
+          },
+          {
+            "sourceField": "price",
+            "targetSelector": "input[name=\"price\"]",
+            "defaultValue": "0.00"
+          }
+        ]
+      },
+      "screenshot": "/uploads/screenshot_mig_0zy3qxi0t.png"
     }
   ],
   "logs": [
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration f3x6xp] Typing values into selector 'textarea[name=\"description\"]'...",
-      "timestamp": "2026-06-06T03:46:03.984Z",
-      "_id": "log_zhwhcurcv"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration f3x6xp] Populated selector with extracted text content.",
-      "timestamp": "2026-06-06T03:46:08.486Z",
-      "_id": "log_wojldxw4u"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration f3x6xp] Locating selector 'textarea[name=\"specs\"]' for field 'specifications'...",
-      "timestamp": "2026-06-06T03:46:08.492Z",
-      "_id": "log_hqcn6fy7v"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration f3x6xp] Typing values into selector 'textarea[name=\"specs\"]'...",
-      "timestamp": "2026-06-06T03:46:09.521Z",
-      "_id": "log_hwr81gm0z"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration f3x6xp] Populated selector with extracted text content.",
-      "timestamp": "2026-06-06T03:46:09.550Z",
-      "_id": "log_r8htkgcai"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration f3x6xp] Locating selector 'input[name=\"date\"]' for field 'date'...",
-      "timestamp": "2026-06-06T03:46:09.559Z",
-      "_id": "log_wlfxq2kxp"
-    },
-    {
-      "type": "migration",
-      "level": "warning",
-      "message": "[Migration f3x6xp] Selector 'input[name=\"date\"]' not found within 3s. Attempting to proceed...",
-      "timestamp": "2026-06-06T03:46:12.574Z",
-      "_id": "log_9bl27nc3h"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration f3x6xp] Locating selector 'input[name=\"price\"]' for field 'price'...",
-      "timestamp": "2026-06-06T03:46:12.583Z",
-      "_id": "log_grb18gcca"
-    },
-    {
-      "type": "migration",
-      "level": "warning",
-      "message": "[Migration f3x6xp] Selector 'input[name=\"price\"]' not found within 3s. Attempting to proceed...",
-      "timestamp": "2026-06-06T03:46:15.597Z",
-      "_id": "log_1ju52fng3"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration f3x6xp] Form filling completed. Auto-Submit is disabled in system configurations.",
-      "timestamp": "2026-06-06T03:46:15.607Z",
-      "_id": "log_agd0dpeq9"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration f3x6xp] Viewport snapshot recorded. Saved to /uploads/screenshot_mig_poif3x6xp.png",
-      "timestamp": "2026-06-06T03:46:15.819Z",
-      "_id": "log_oixesd5ng"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration f3x6xp] Data migration executed flawlessly! Session closed.",
-      "timestamp": "2026-06-06T03:46:15.827Z",
-      "_id": "log_ggt2mxoba"
-    },
-    {
-      "type": "system",
-      "level": "info",
-      "message": "Apexium server boot complete. DB Mode: Local file system fallback connected.",
-      "timestamp": "2026-06-06T04:02:23.257Z",
-      "_id": "log_kbrdii4a7"
-    },
-    {
-      "type": "system",
-      "level": "info",
-      "message": "Apexium server boot complete. DB Mode: Local file system fallback connected.",
-      "timestamp": "2026-06-06T04:10:41.352Z",
-      "_id": "log_634f1ffzd"
-    },
-    {
-      "type": "system",
-      "level": "info",
-      "message": "Apexium server boot complete. DB Mode: Local file system fallback connected.",
-      "timestamp": "2026-06-06T04:20:56.237Z",
-      "_id": "log_fjnl54coj"
-    },
-    {
-      "type": "system",
-      "level": "info",
-      "message": "Apexium server boot complete. DB Mode: Local file system fallback connected.",
-      "timestamp": "2026-06-06T04:23:56.735Z",
-      "_id": "log_pfzqar62e"
-    },
-    {
-      "type": "extraction",
-      "level": "info",
-      "message": "Initiating content extraction from: https://www.com",
-      "timestamp": "2026-06-06T04:25:19.835Z",
-      "_id": "log_aerrar25e"
-    },
-    {
-      "type": "extraction",
-      "level": "success",
-      "message": "Static HTML fetched successfully (37354 bytes).",
-      "timestamp": "2026-06-06T04:25:21.336Z",
-      "_id": "log_dhrayb6x3"
-    },
-    {
-      "type": "extraction",
-      "level": "success",
-      "message": "Data extraction completed successfully. Title parsed: \"www.com — AI Answers...\"",
-      "timestamp": "2026-06-06T04:25:21.366Z",
-      "_id": "log_llf2vuwd7"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration rtcovx] Initializing Apexium Automation Engine for Migration ID: mig_kjkrtcovx",
-      "timestamp": "2026-06-06T04:25:24.519Z",
-      "_id": "log_ghl8lv0wj"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration rtcovx] Target Destination Form: http://localhost:5000/test-form.html",
-      "timestamp": "2026-06-06T04:25:24.533Z",
-      "_id": "log_6phsr2fo5"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration rtcovx] Spawning Puppeteer chrome browser (Headless: false)...",
-      "timestamp": "2026-06-06T04:25:24.540Z",
-      "_id": "log_w8jwd24nu"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration rtcovx] Navigating to form URL: http://localhost:5000/test-form.html?expectedTitle=www.com%20%E2%80%94%20AI%20Answers",
-      "timestamp": "2026-06-06T04:25:25.143Z",
-      "_id": "log_40vl4zqld"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration rtcovx] Destination DOM structure fully loaded and responsive.",
-      "timestamp": "2026-06-06T04:25:25.784Z",
-      "_id": "log_de7edtjn2"
-    },
-    {
-      "type": "migration",
-      "level": "warning",
-      "message": "[Migration rtcovx] [RPA EXCLUSION] Skipping auto-fill for selector '#product-title'. Operator must fill this field manually.",
-      "timestamp": "2026-06-06T04:25:25.790Z",
-      "_id": "log_oc9tgj8du"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration rtcovx] Locating selector 'textarea[name=\"description\"]' for field 'description'...",
-      "timestamp": "2026-06-06T04:25:25.796Z",
-      "_id": "log_p0mvqjtd2"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration rtcovx] Typing values into selector 'textarea[name=\"description\"]'...",
-      "timestamp": "2026-06-06T04:25:26.848Z",
-      "_id": "log_o4wvghws8"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration rtcovx] Populated selector with extracted text content.",
-      "timestamp": "2026-06-06T04:25:31.313Z",
-      "_id": "log_5hgtah7gl"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration rtcovx] Locating selector 'textarea[name=\"specs\"]' for field 'specifications'...",
-      "timestamp": "2026-06-06T04:25:31.322Z",
-      "_id": "log_6oadrimct"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration rtcovx] Typing values into selector 'textarea[name=\"specs\"]'...",
-      "timestamp": "2026-06-06T04:25:32.355Z",
-      "_id": "log_gdv3pv8kt"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration rtcovx] Populated selector with extracted text content.",
-      "timestamp": "2026-06-06T04:25:32.380Z",
-      "_id": "log_59qgn1ey9"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration rtcovx] Locating selector 'input[name=\"date\"]' for field 'date'...",
-      "timestamp": "2026-06-06T04:25:32.388Z",
-      "_id": "log_tt46pf5aj"
-    },
-    {
-      "type": "migration",
-      "level": "warning",
-      "message": "[Migration rtcovx] Selector 'input[name=\"date\"]' not found within 3s. Attempting to proceed...",
-      "timestamp": "2026-06-06T04:25:35.408Z",
-      "_id": "log_a6erxwffd"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration rtcovx] Locating selector 'input[name=\"price\"]' for field 'price'...",
-      "timestamp": "2026-06-06T04:25:35.413Z",
-      "_id": "log_3hau9bg15"
-    },
-    {
-      "type": "migration",
-      "level": "warning",
-      "message": "[Migration rtcovx] Selector 'input[name=\"price\"]' not found within 3s. Attempting to proceed...",
-      "timestamp": "2026-06-06T04:25:38.435Z",
-      "_id": "log_8sglv711s"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration rtcovx] Form filling completed. Auto-Submit is disabled in system configurations.",
-      "timestamp": "2026-06-06T04:25:38.442Z",
-      "_id": "log_homw9di48"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration rtcovx] Viewport snapshot recorded. Saved to /uploads/screenshot_mig_kjkrtcovx.png",
-      "timestamp": "2026-06-06T04:25:38.629Z",
-      "_id": "log_rxhigap0c"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration rtcovx] Data migration executed flawlessly! Session closed.",
-      "timestamp": "2026-06-06T04:25:38.635Z",
-      "_id": "log_y2whnl94c"
-    },
-    {
-      "type": "extraction",
-      "level": "info",
-      "message": "Initiating content extraction from: https://www.tesla.com/models/design",
-      "timestamp": "2026-06-06T04:52:49.156Z",
-      "_id": "log_yxiql70z1"
-    },
-    {
-      "type": "extraction",
-      "level": "info",
-      "message": "Launching headless browser for full JavaScript rendering...",
-      "timestamp": "2026-06-06T04:52:49.602Z",
-      "_id": "log_xwvzfyqh4"
-    },
-    {
-      "type": "extraction",
-      "level": "success",
-      "message": "Dynamic webpage rendered and scraped successfully using Puppeteer.",
-      "timestamp": "2026-06-06T04:52:53.408Z",
-      "_id": "log_csnwmpy3v"
-    },
-    {
-      "type": "extraction",
-      "level": "error",
-      "message": "Target page returned an error or access restriction: \"Access Denied\"",
-      "timestamp": "2026-06-06T04:52:54.119Z",
-      "_id": "log_7jsfemsla"
-    },
-    {
-      "type": "extraction",
-      "level": "error",
-      "message": "Failed during content parsing: Extraction failed: Target page returned an error or access restriction (\"Access Denied\").",
-      "timestamp": "2026-06-06T04:52:54.130Z",
-      "_id": "log_xoiyooc6v"
-    },
-    {
-      "type": "extraction",
-      "level": "info",
-      "message": "Initiating content extraction from: https://nextgen.edunetworld.com/login",
-      "timestamp": "2026-06-06T04:53:22.376Z",
-      "_id": "log_w36y7kmny"
-    },
-    {
-      "type": "extraction",
-      "level": "success",
-      "message": "Static HTML fetched successfully (22325 bytes).",
-      "timestamp": "2026-06-06T04:53:22.647Z",
-      "_id": "log_tv31anwei"
-    },
-    {
-      "type": "extraction",
-      "level": "success",
-      "message": "Data extraction completed successfully. Title parsed: \"Login...\"",
-      "timestamp": "2026-06-06T04:53:22.687Z",
-      "_id": "log_67e5d18ba"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration l9vbda] Initializing Apexium Automation Engine for Migration ID: mig_4zal9vbda",
-      "timestamp": "2026-06-06T04:53:24.987Z",
-      "_id": "log_xu2y40x98"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration l9vbda] Target Destination Form: http://localhost:5000/test-form.html",
-      "timestamp": "2026-06-06T04:53:24.999Z",
-      "_id": "log_dh0toa2u3"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration l9vbda] Spawning Puppeteer chrome browser (Headless: false)...",
-      "timestamp": "2026-06-06T04:53:25.011Z",
-      "_id": "log_hbys18vc9"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration l9vbda] Navigating to form URL: http://localhost:5000/test-form.html?expectedTitle=Login",
-      "timestamp": "2026-06-06T04:53:26.616Z",
-      "_id": "log_vzujuflhv"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration l9vbda] Destination DOM structure fully loaded and responsive.",
-      "timestamp": "2026-06-06T04:53:27.635Z",
-      "_id": "log_8yi8jq16u"
-    },
-    {
-      "type": "migration",
-      "level": "warning",
-      "message": "[Migration l9vbda] [RPA EXCLUSION] Skipping auto-fill for selector '#product-title'. Operator must fill this field manually.",
-      "timestamp": "2026-06-06T04:53:27.654Z",
-      "_id": "log_xfi214bi0"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration l9vbda] Locating selector 'textarea[name=\"description\"]' for field 'description'...",
-      "timestamp": "2026-06-06T04:53:27.667Z",
-      "_id": "log_w8p39lwll"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration l9vbda] Typing values into selector 'textarea[name=\"description\"]'...",
-      "timestamp": "2026-06-06T04:53:28.779Z",
-      "_id": "log_8kd9laubv"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration l9vbda] Populated selector with extracted text content.",
-      "timestamp": "2026-06-06T04:53:36.554Z",
-      "_id": "log_kdquslr98"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration l9vbda] Locating selector 'textarea[name=\"specs\"]' for field 'specifications'...",
-      "timestamp": "2026-06-06T04:53:36.568Z",
-      "_id": "log_oahcgeblm"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration l9vbda] Typing values into selector 'textarea[name=\"specs\"]'...",
-      "timestamp": "2026-06-06T04:53:37.648Z",
-      "_id": "log_g598at88l"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration l9vbda] Populated selector with extracted text content.",
-      "timestamp": "2026-06-06T04:53:37.685Z",
-      "_id": "log_4ex8uqiqx"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration l9vbda] Locating selector 'input[name=\"date\"]' for field 'date'...",
-      "timestamp": "2026-06-06T04:53:37.701Z",
-      "_id": "log_3p0abciq5"
-    },
-    {
-      "type": "migration",
-      "level": "warning",
-      "message": "[Migration l9vbda] Selector 'input[name=\"date\"]' not found within 3s. Attempting to proceed...",
-      "timestamp": "2026-06-06T04:53:40.716Z",
-      "_id": "log_xk3jw9eie"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration l9vbda] Locating selector 'input[name=\"price\"]' for field 'price'...",
-      "timestamp": "2026-06-06T04:53:40.727Z",
-      "_id": "log_y0lynfzr7"
-    },
-    {
-      "type": "migration",
-      "level": "warning",
-      "message": "[Migration l9vbda] Selector 'input[name=\"price\"]' not found within 3s. Attempting to proceed...",
-      "timestamp": "2026-06-06T04:53:43.743Z",
-      "_id": "log_phnzpmnax"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration l9vbda] Form filling completed. Auto-Submit is disabled in system configurations.",
-      "timestamp": "2026-06-06T04:53:43.755Z",
-      "_id": "log_wduka59nq"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration l9vbda] Viewport snapshot recorded. Saved to /uploads/screenshot_mig_4zal9vbda.png",
-      "timestamp": "2026-06-06T04:53:44.065Z",
-      "_id": "log_ax6axt5f0"
-    },
-    {
-      "type": "migration",
-      "level": "success",
-      "message": "[Migration l9vbda] Data migration executed flawlessly! Session closed.",
-      "timestamp": "2026-06-06T04:53:44.077Z",
-      "_id": "log_spgnblwup"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration om9z46] Initializing Apexium Automation Engine for Migration ID: mig_5hpom9z46",
-      "timestamp": "2026-06-06T04:57:21.354Z",
-      "_id": "log_td9ybbpm1"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration om9z46] Target Destination Form: http://localhost:5000/test-form.html",
-      "timestamp": "2026-06-06T04:57:21.368Z",
-      "_id": "log_lvji2syn5"
-    },
-    {
-      "type": "migration",
-      "level": "info",
-      "message": "[Migration om9z46] Spawning Puppeteer chrome browser (Headless: false)...",
-      "timestamp": "2026-06-06T04:57:21.378Z",
-      "_id": "log_3tpok8y5r"
-    },
     {
       "type": "migration",
       "level": "info",
@@ -7983,6 +7678,482 @@
       "message": "Apexium server boot complete. DB Mode: Local file system fallback connected.",
       "timestamp": "2026-06-07T13:53:36.151Z",
       "_id": "log_h1kygwf3h"
+    },
+    {
+      "type": "system",
+      "level": "info",
+      "message": "Apexium server boot complete. DB Mode: Local file system fallback connected.",
+      "timestamp": "2026-06-08T06:32:52.136Z",
+      "_id": "log_70frs8asz"
+    },
+    {
+      "type": "system",
+      "level": "info",
+      "message": "Apexium server boot complete. DB Mode: Local file system fallback connected.",
+      "timestamp": "2026-06-08T07:57:34.885Z",
+      "_id": "log_exlyo01mv"
+    },
+    {
+      "type": "extraction",
+      "level": "info",
+      "message": "Initiating content extraction from: https://www.upskillcampus.com/internships",
+      "timestamp": "2026-06-08T07:59:27.919Z",
+      "_id": "log_2idttbs28"
+    },
+    {
+      "type": "extraction",
+      "level": "success",
+      "message": "Static HTML fetched successfully (136199 bytes).",
+      "timestamp": "2026-06-08T07:59:30.487Z",
+      "_id": "log_nuakcaflk"
+    },
+    {
+      "type": "extraction",
+      "level": "success",
+      "message": "Data extraction completed successfully. Title parsed: \"UpSkill Campus Internship Program...\"",
+      "timestamp": "2026-06-08T07:59:30.586Z",
+      "_id": "log_5et52yf69"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Initializing Apexium Automation Engine for Migration ID: mig_0zy3qxi0t",
+      "timestamp": "2026-06-08T07:59:33.525Z",
+      "_id": "log_petwa2u48"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Target Destination Form: http://localhost:5000/test-form.html",
+      "timestamp": "2026-06-08T07:59:33.534Z",
+      "_id": "log_tb5ot18r2"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Spawning Puppeteer chrome browser (Headless: true)...",
+      "timestamp": "2026-06-08T07:59:33.542Z",
+      "_id": "log_vujgfoyoy"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Navigating to form URL: http://localhost:5000/test-form.html",
+      "timestamp": "2026-06-08T07:59:34.485Z",
+      "_id": "log_srckzybms"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Destination DOM structure fully loaded and responsive.",
+      "timestamp": "2026-06-08T07:59:35.415Z",
+      "_id": "log_9fpogcyqk"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector '#product-title' for field 'title'...",
+      "timestamp": "2026-06-08T07:59:35.424Z",
+      "_id": "log_tfeznih8d"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Typing values into selector '#product-title'...",
+      "timestamp": "2026-06-08T07:59:36.478Z",
+      "_id": "log_h48aquqms"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Populated selector with extracted text content.",
+      "timestamp": "2026-06-08T07:59:38.963Z",
+      "_id": "log_ovyh2cty6"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'textarea[name=\"description\"]' for field 'description'...",
+      "timestamp": "2026-06-08T07:59:38.974Z",
+      "_id": "log_tkz4q5qs0"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Typing values into selector 'textarea[name=\"description\"]'...",
+      "timestamp": "2026-06-08T07:59:40.019Z",
+      "_id": "log_a0auhpm1g"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Populated selector with extracted text content.",
+      "timestamp": "2026-06-08T07:59:52.589Z",
+      "_id": "log_usy68s57v"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'textarea[name=\"specs\"]' for field 'specifications'...",
+      "timestamp": "2026-06-08T07:59:52.596Z",
+      "_id": "log_ttqrdlcbm"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Typing values into selector 'textarea[name=\"specs\"]'...",
+      "timestamp": "2026-06-08T07:59:53.632Z",
+      "_id": "log_iva4mr4l5"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Initializing Apexium Automation Engine for Migration ID: mig_0zy3qxi0t",
+      "timestamp": "2026-06-08T08:00:02.569Z",
+      "_id": "log_481ubexkc"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Target Destination Form: http://localhost:5000/test-form.html",
+      "timestamp": "2026-06-08T08:00:02.578Z",
+      "_id": "log_gwd3u65o2"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Spawning Puppeteer chrome browser (Headless: true)...",
+      "timestamp": "2026-06-08T08:00:02.587Z",
+      "_id": "log_l2inxseqa"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Navigating to form URL: http://localhost:5000/test-form.html",
+      "timestamp": "2026-06-08T08:00:03.055Z",
+      "_id": "log_8ks7bjqrf"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Destination DOM structure fully loaded and responsive.",
+      "timestamp": "2026-06-08T08:00:03.691Z",
+      "_id": "log_7pf81i6sg"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector '#product-title' for field 'title'...",
+      "timestamp": "2026-06-08T08:00:03.699Z",
+      "_id": "log_oisu569hu"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Typing values into selector '#product-title'...",
+      "timestamp": "2026-06-08T08:00:04.735Z",
+      "_id": "log_48l95fgn6"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Populated selector with extracted text content.",
+      "timestamp": "2026-06-08T08:00:07.276Z",
+      "_id": "log_n82yqpoov"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'textarea[name=\"description\"]' for field 'description'...",
+      "timestamp": "2026-06-08T08:00:07.284Z",
+      "_id": "log_9de363px0"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Typing values into selector 'textarea[name=\"description\"]'...",
+      "timestamp": "2026-06-08T08:00:08.318Z",
+      "_id": "log_ui1tau1ia"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Populated selector with extracted text content.",
+      "timestamp": "2026-06-08T08:00:21.042Z",
+      "_id": "log_pizjchmda"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'textarea[name=\"specs\"]' for field 'specifications'...",
+      "timestamp": "2026-06-08T08:00:21.050Z",
+      "_id": "log_znvxt2p1i"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Typing values into selector 'textarea[name=\"specs\"]'...",
+      "timestamp": "2026-06-08T08:00:22.083Z",
+      "_id": "log_2pyhnqkxo"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Initializing Apexium Automation Engine for Migration ID: mig_0zy3qxi0t",
+      "timestamp": "2026-06-08T08:01:32.454Z",
+      "_id": "log_ga1ydhu2y"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Target Destination Form: http://localhost:5000/test-form.html",
+      "timestamp": "2026-06-08T08:01:32.466Z",
+      "_id": "log_ns01ecie6"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Spawning Puppeteer chrome browser (Headless: true)...",
+      "timestamp": "2026-06-08T08:01:32.476Z",
+      "_id": "log_0fpjqej8j"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Navigating to form URL: http://localhost:5000/test-form.html",
+      "timestamp": "2026-06-08T08:01:32.956Z",
+      "_id": "log_i9uaf41dx"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Destination DOM structure fully loaded and responsive.",
+      "timestamp": "2026-06-08T08:01:33.563Z",
+      "_id": "log_xxpdovxoq"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector '#product-title' for field 'title'...",
+      "timestamp": "2026-06-08T08:01:33.570Z",
+      "_id": "log_thedsxjgz"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Typing values into selector '#product-title'...",
+      "timestamp": "2026-06-08T08:01:34.612Z",
+      "_id": "log_d6zy0lf6e"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Populated selector with extracted text content.",
+      "timestamp": "2026-06-08T08:01:37.221Z",
+      "_id": "log_m4kpzns8q"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'textarea[name=\"description\"]' for field 'description'...",
+      "timestamp": "2026-06-08T08:01:37.236Z",
+      "_id": "log_1h62h4pvl"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Typing values into selector 'textarea[name=\"description\"]'...",
+      "timestamp": "2026-06-08T08:01:38.286Z",
+      "_id": "log_1pfdpmicc"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Populated selector with extracted text content.",
+      "timestamp": "2026-06-08T08:01:38.650Z",
+      "_id": "log_3r2zvkhgw"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'input[name=\"date\"]' for field 'date'...",
+      "timestamp": "2026-06-08T08:01:38.659Z",
+      "_id": "log_im8g0kbzr"
+    },
+    {
+      "type": "migration",
+      "level": "warning",
+      "message": "[Migration 3qxi0t] Selector 'input[name=\"date\"]' not found within 3s. Attempting to proceed...",
+      "timestamp": "2026-06-08T08:01:41.685Z",
+      "_id": "log_e5w9xbzxq"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'input[name=\"price\"]' for field 'price'...",
+      "timestamp": "2026-06-08T08:01:41.694Z",
+      "_id": "log_a9gayyn66"
+    },
+    {
+      "type": "migration",
+      "level": "warning",
+      "message": "[Migration 3qxi0t] Selector 'input[name=\"price\"]' not found within 3s. Attempting to proceed...",
+      "timestamp": "2026-06-08T08:01:44.703Z",
+      "_id": "log_xeevyblgk"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Form filling completed. Auto-Submit is disabled in system configurations.",
+      "timestamp": "2026-06-08T08:01:44.712Z",
+      "_id": "log_1d9djgbca"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Viewport snapshot recorded. Saved to /uploads/screenshot_mig_0zy3qxi0t.png",
+      "timestamp": "2026-06-08T08:01:45.095Z",
+      "_id": "log_vwtdv20so"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Data migration executed flawlessly! Session closed.",
+      "timestamp": "2026-06-08T08:01:45.106Z",
+      "_id": "log_516kzvy5q"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Populated selector with extracted text content.",
+      "timestamp": "2026-06-08T08:01:50.934Z",
+      "_id": "log_xdajecczf"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'textarea[name=\"specs\"]' for field 'specifications'...",
+      "timestamp": "2026-06-08T08:01:50.941Z",
+      "_id": "log_f609n6bg9"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Typing values into selector 'textarea[name=\"specs\"]'...",
+      "timestamp": "2026-06-08T08:01:51.980Z",
+      "_id": "log_uzaoxk9th"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Populated selector with extracted text content.",
+      "timestamp": "2026-06-08T08:02:07.011Z",
+      "_id": "log_uiyo9sim7"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'input[name=\"date\"]' for field 'date'...",
+      "timestamp": "2026-06-08T08:02:07.020Z",
+      "_id": "log_8k9pngrht"
+    },
+    {
+      "type": "migration",
+      "level": "warning",
+      "message": "[Migration 3qxi0t] Selector 'input[name=\"date\"]' not found within 3s. Attempting to proceed...",
+      "timestamp": "2026-06-08T08:02:10.046Z",
+      "_id": "log_4x0lpeuhh"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'input[name=\"price\"]' for field 'price'...",
+      "timestamp": "2026-06-08T08:02:10.055Z",
+      "_id": "log_l8je96ntt"
+    },
+    {
+      "type": "migration",
+      "level": "warning",
+      "message": "[Migration 3qxi0t] Selector 'input[name=\"price\"]' not found within 3s. Attempting to proceed...",
+      "timestamp": "2026-06-08T08:02:13.077Z",
+      "_id": "log_ebf6khs3c"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Form filling completed. Auto-Submit is disabled in system configurations.",
+      "timestamp": "2026-06-08T08:02:13.085Z",
+      "_id": "log_egrvjo1lv"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Viewport snapshot recorded. Saved to /uploads/screenshot_mig_0zy3qxi0t.png",
+      "timestamp": "2026-06-08T08:02:13.419Z",
+      "_id": "log_circyiyot"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Data migration executed flawlessly! Session closed.",
+      "timestamp": "2026-06-08T08:02:13.428Z",
+      "_id": "log_bsj4mtle2"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Populated selector with extracted text content.",
+      "timestamp": "2026-06-08T08:03:31.067Z",
+      "_id": "log_qbunn25ku"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'input[name=\"date\"]' for field 'date'...",
+      "timestamp": "2026-06-08T08:03:31.075Z",
+      "_id": "log_3jft2j1tp"
+    },
+    {
+      "type": "migration",
+      "level": "warning",
+      "message": "[Migration 3qxi0t] Selector 'input[name=\"date\"]' not found within 3s. Attempting to proceed...",
+      "timestamp": "2026-06-08T08:03:34.092Z",
+      "_id": "log_svvehxdcc"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Locating selector 'input[name=\"price\"]' for field 'price'...",
+      "timestamp": "2026-06-08T08:03:34.104Z",
+      "_id": "log_p1p3gojnm"
+    },
+    {
+      "type": "migration",
+      "level": "warning",
+      "message": "[Migration 3qxi0t] Selector 'input[name=\"price\"]' not found within 3s. Attempting to proceed...",
+      "timestamp": "2026-06-08T08:03:37.126Z",
+      "_id": "log_1kt2lle65"
+    },
+    {
+      "type": "migration",
+      "level": "info",
+      "message": "[Migration 3qxi0t] Form filling completed. Auto-Submit is disabled in system configurations.",
+      "timestamp": "2026-06-08T08:03:37.136Z",
+      "_id": "log_ltahb4kvv"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Viewport snapshot recorded. Saved to /uploads/screenshot_mig_0zy3qxi0t.png",
+      "timestamp": "2026-06-08T08:03:37.417Z",
+      "_id": "log_go3dcqyco"
+    },
+    {
+      "type": "migration",
+      "level": "success",
+      "message": "[Migration 3qxi0t] Data migration executed flawlessly! Session closed.",
+      "timestamp": "2026-06-08T08:03:37.423Z",
+      "_id": "log_mrh5b7kuq"
     }
   ],
   "settings": {
