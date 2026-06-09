@@ -61,28 +61,39 @@ User opens the application in browser.
 👉 Frontend loads the dashboard and login page.
 
 Step 2: User Login / Signup
+
 User creates account or logs in
+
 Credentials are verified by backend
 
 Step 3: Data Migration Process
 
 User selects migration options like:
+
 Source data
+
 Target location
+
 Migration type
 
 The system:
 
+
 Sends request to backend
+
 Backend processes the request
+
 Stores migration data in database
 
 Step 4: Dashboard View
 
 User can:
 
+
 View migration status
+
 Track progress
+
 See stored records
 
 
@@ -105,8 +116,11 @@ If database connection fails:
 
 This ensures:
 
+
 Application still works
+
 No data loss in basic mode
+
 Backup system is active
 
 
@@ -115,6 +129,7 @@ Backup system is active
 Data is stored in:
 
 MongoDB database (primary storage)
+
 JSON files (backup storage if DB fails)
 
 
