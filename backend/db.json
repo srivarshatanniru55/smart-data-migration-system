@@ -4657,13 +4657,6 @@
   "logs": [
     {
       "type": "migration",
-      "level": "info",
-      "message": "[Migration om9z46] Navigating to form URL: http://localhost:5000/test-form.html?expectedTitle=",
-      "timestamp": "2026-06-06T04:57:22.877Z",
-      "_id": "log_iypxcu2bp"
-    },
-    {
-      "type": "migration",
       "level": "success",
       "message": "[Migration om9z46] Destination DOM structure fully loaded and responsive.",
       "timestamp": "2026-06-06T04:57:23.896Z",
@@ -8154,6 +8147,13 @@
       "message": "[Migration 3qxi0t] Data migration executed flawlessly! Session closed.",
       "timestamp": "2026-06-08T08:03:37.423Z",
       "_id": "log_mrh5b7kuq"
+    },
+    {
+      "type": "system",
+      "level": "info",
+      "message": "Apexium server boot complete. DB Mode: Local file system fallback connected.",
+      "timestamp": "2026-06-08T10:03:11.775Z",
+      "_id": "log_l4x6cu62u"
     }
   ],
   "settings": {

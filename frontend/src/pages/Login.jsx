@@ -19,7 +19,11 @@ export default function Login({ onLoginSuccess }) {
 
     setIsLoading(true);
 
-    const url = isSignUp ? '/api/auth/register' : '/api/auth/login';
+    const API_URL = import.meta.env.VITE_API_URL;
+
+    const url = isSignUp
+    ? `${API_URL}/api/auth/register`
+    : `${API_URL}/api/auth/login`;
 
     fetch(url, {
       method: 'POST',
