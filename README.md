@@ -39,11 +39,14 @@ React.js
 Vite
 JavaScript
 CSS
+
 🔹 Backend (Server side)
 Node.js
 Express.js
+
 🔹 Database
 MongoDB (Atlas or local)
+
 🔹 Other tools
 REST API communication
 JSON fallback system (backup mode)
@@ -60,10 +63,10 @@ User opens the application in browser.
 Step 2: User Login / Signup
 User creates account or logs in
 Credentials are verified by backend
+
 Step 3: Data Migration Process
 
 User selects migration options like:
-
 Source data
 Target location
 Migration type
@@ -73,6 +76,7 @@ The system:
 Sends request to backend
 Backend processes the request
 Stores migration data in database
+
 Step 4: Dashboard View
 
 User can:
@@ -117,31 +121,49 @@ JSON files (backup storage if DB fails)
 **8️⃣ What are the main features?**
 
 ✔ User authentication system
+
 ✔ Data migration workflow
+
 ✔ Dashboard for tracking
+
 ✔ Database integration
+
 ✔ Backup JSON fallback system
+
 ✔ REST API communication
 
 
 **9️⃣ Project Output Summary**
 
 Output Screens:
+
 Login / Signup page
+
 Dashboard interface
+
 Migration status display
+
 Data records view
+
 System Behavior:
+
 Accepts user input
+
 Processes migration requests
+
 Stores data securely
+
 Shows results in UI
 
 
 **🔟 Final Conclusion**
 
 ✔ This project is fully functional
+
 ✔ It automates data migration tasks
+
 ✔ It uses modern web technologies
+
 ✔ It includes backup system for reliability
+
 ✔ It is suitable for academic and real-world understanding
