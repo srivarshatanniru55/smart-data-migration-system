@@ -5,7 +5,7 @@
 
 This project is a web-based Smart Data Migration System.
 
-👉 Its main purpose is to:
+**👉 Its main purpose is to:**
 
 Transfer data from one place to another
 Manage and track data migration processes
@@ -17,7 +17,7 @@ Instead of doing manual data transfer, this system automates the process.
 
 **2️⃣ Why do we need this project?**
 
-In real-world applications:
+**In real-world applications:**
 
 Companies handle large amounts of data
 Moving data manually is slow and error-prone
@@ -54,21 +54,21 @@ JSON fallback system (backup mode)
 
 **4️⃣ How does the project work? (Simple flow)**
 
-Step 1: Start the system
+**Step 1: Start the system**
 
 User opens the application in browser.
 
 👉 Frontend loads the dashboard and login page.
 
-Step 2: User Login / Signup
+**Step 2: User Login / Signup**
 
 User creates account or logs in
 
 Credentials are verified by backend
 
-Step 3: Data Migration Process
+**Step 3: Data Migration Process**
 
-User selects migration options like:
+**User selects migration options like:**
 
 Source data
 
@@ -76,7 +76,7 @@ Target location
 
 Migration type
 
-The system:
+**The system:**
 
 
 Sends request to backend
@@ -85,9 +85,9 @@ Backend processes the request
 
 Stores migration data in database
 
-Step 4: Dashboard View
+**Step 4: Dashboard View**
 
-User can:
+**User can:**
 
 
 View migration status
@@ -99,7 +99,7 @@ See stored records
 
 **5️⃣ What happens internally?**
 
-When a user performs an action:
+**When a user performs an action:**
 
 Frontend → sends request → Backend API → Database
 
@@ -110,7 +110,7 @@ React UI → Express API → MongoDB → Response back to UI
 
 **6️⃣ What is JSON fallback system?**
 
-If database connection fails:
+**If database connection fails:**
 
 👉 The system automatically switches to JSON file storage
 
@@ -126,7 +126,7 @@ Backup system is active
 
 **7️⃣ Where is data stored?**
 
-Data is stored in:
+**Data is stored in:**
 
 MongoDB database (primary storage)
 
@@ -150,7 +150,7 @@ JSON files (backup storage if DB fails)
 
 **9️⃣ Project Output Summary**
 
-Output Screens:
+**Output Screens:**
 
 Login / Signup page
 
@@ -160,7 +160,7 @@ Migration status display
 
 Data records view
 
-System Behavior:
+**System Behavior:**
 
 Accepts user input
 
