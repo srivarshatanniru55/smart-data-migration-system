@@ -1,5 +1,5 @@
-🚀 Smart Data Migration System – Easy & Detailed Explanation
-1️⃣ What is this project?
+**🚀 Smart Data Migration System – Easy & Detailed Explanation**
+**1️⃣ What is this project?**
 
 This project is a web-based Smart Data Migration System.
 
@@ -12,7 +12,7 @@ Provide a simple interface for users to manage data operations
 
 Instead of doing manual data transfer, this system automates the process.
 
-2️⃣ Why do we need this project?
+**2️⃣ Why do we need this project?**
 
 In real-world applications:
 
@@ -27,7 +27,7 @@ Automating data migration
 Storing data safely in a database
 Providing a structured workflow
 Reducing human errors
-3️⃣ Which technologies are used?
+**3️⃣ Which technologies are used?**
 🔹 Frontend (User Interface)
 React.js
 Vite
@@ -41,7 +41,7 @@ MongoDB (Atlas or local)
 🔹 Other tools
 REST API communication
 JSON fallback system (backup mode)
-4️⃣ How does the project work? (Simple flow)
+**4️⃣ How does the project work? (Simple flow)**
 Step 1: Start the system
 
 User opens the application in browser.
@@ -71,7 +71,7 @@ User can:
 View migration status
 Track progress
 See stored records
-5️⃣ What happens internally?
+**5️⃣ What happens internally?**
 
 When a user performs an action:
 
@@ -80,7 +80,7 @@ Frontend → sends request → Backend API → Database
 Example flow:
 
 React UI → Express API → MongoDB → Response back to UI
-6️⃣ What is JSON fallback system?
+**6️⃣ What is JSON fallback system?**
 
 If database connection fails:
 
@@ -91,13 +91,13 @@ This ensures:
 Application still works
 No data loss in basic mode
 Backup system is active
-7️⃣ Where is data stored?
+**7️⃣ Where is data stored?**
 
 Data is stored in:
 
 MongoDB database (primary storage)
 JSON files (backup storage if DB fails)
-8️⃣ What are the main features?
+**8️⃣ What are the main features?**
 
 ✔ User authentication system
 ✔ Data migration workflow
@@ -106,7 +106,7 @@ JSON files (backup storage if DB fails)
 ✔ Backup JSON fallback system
 ✔ REST API communication
 
-9️⃣ Project Output Summary
+**9️⃣ Project Output Summary**
 Output Screens:
 Login / Signup page
 Dashboard interface
@@ -117,7 +117,7 @@ Accepts user input
 Processes migration requests
 Stores data securely
 Shows results in UI
-🔟 Final Conclusion
+**🔟 Final Conclusion**
 
 ✔ This project is fully functional
 ✔ It automates data migration tasks
