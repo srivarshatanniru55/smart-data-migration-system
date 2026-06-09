@@ -20,6 +20,7 @@ export default function Login({ onLoginSuccess }) {
     setIsLoading(true);
 
     const API_URL = import.meta.env.VITE_API_URL;
+    console.log("API_URL =", API_URL);
 
     const url = isSignUp
     ? `${API_URL}/api/auth/register`
